@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>HeadWritten — рукописный текст в тетради из обычного</title>
+    <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <div class="container">
+      <div class="information">
+        <div class="logo">
+          <p class="black-c">Hand</p>
+          <p class="red-c">Written</p>
+        </div>
+
+        <div class="description">
+            <p>Превратим бесплатно обычный текст в рукописный меньше чем за 10 секунд.</p>
+        </div>
+      </div>
+
+      <div class="data-container">
+        {% block data_container %}{% endblock %}
+      </div>
+    </div>
+  </body>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</html>
