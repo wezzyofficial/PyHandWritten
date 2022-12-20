@@ -1,4 +1,4 @@
-![PyHandWritten preview](https://raw.githubusercontent.com/wezzyofficial/pyhandwritten/main/assets/screen1.jpg)
+![PyHandWritten preview](https://raw.githubusercontent.com/wezzyofficial/PyHandWritten/master/assets/screen1.jpg)
 
 # PyHandWritten
 
